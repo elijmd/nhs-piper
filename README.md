@@ -18,14 +18,14 @@ DELAY default is 5 seconds. Each loop will sleep for DEALY seconds.
 ATTEMPT_NUM number of time the action will be executed. Default is 12 times  
 
 ### Required: 
-ZOOKEEPER_HOST
-ZOOKEEPER_PORT
-KAFKA_HOST (port is fixed to 2181)
+ZOOKEEPER_HOST  
+ZOOKEEPER_PORT  
+KAFKA_HOST (port is fixed to 2181)  
 
 #### Solr piper
-SOLR_HOST
-SOLR_PORT defaulted to 8983
+SOLR_HOST  
+SOLR_PORT defaulted to 8983  
 
 #### Mongo piper
-MONGO_HOST a comma separated list of host:port
-MONGO_REPLICASET name of the replica set
+MONGO_HOST a comma separated list of host:port  
+MONGO_REPLICASET name of the replica set  
